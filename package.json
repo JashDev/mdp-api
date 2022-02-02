@@ -10,7 +10,6 @@
     "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/index.js"
   },
   "dependencies": {
-    "@vercel/node": "^1.12.1",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "dayjs": "^1.10.7",
