@@ -15,7 +15,9 @@ app.options('*', cors())
 app.use('/api/customer', customerRoute)
 
 app.get('/', (req, res) => {
-    res.send('Hello Worldasdfasdf!').status(httpStatus.OK)
+    res.json({
+        message: 'Customer API init'
+    }).status(httpStatus.OK)
 })
 
 export default app
